@@ -12,3 +12,11 @@ function SetPage(){
 	});
 }
 $(document).ready(SetPage);
+
+function InitPage(){
+	$("#menuBar .menu a").each(function(){
+		$(this).removeClass("active");
+	});
+	$("body").removeClass();
+	$("#Inner").text("");
+}
