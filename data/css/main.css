@@ -1,6 +1,6 @@
 /* line 2, ../sass/main.scss */
 body.main {
-  background-color: darkblue;
+  background-color: pink;
   -webkit-transition-property: background-color;
   -moz-transition-property: background-color;
   -o-transition-property: background-color;
@@ -9,5 +9,4 @@ body.main {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  color: white;
 }

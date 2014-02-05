@@ -1,6 +1,6 @@
 /* line 2, ../sass/introduction.scss */
 body.introduction {
-  background-color: pink;
+  background-color: #ff6666;
   -webkit-transition-property: background-color;
   -moz-transition-property: background-color;
   -o-transition-property: background-color;

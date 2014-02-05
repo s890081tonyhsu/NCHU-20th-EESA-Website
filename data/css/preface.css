@@ -1,6 +1,6 @@
 /* line 2, ../sass/preface.scss */
 body.preface {
-  background-color: yellow;
+  background-color: lightyellow;
   -webkit-transition-property: background-color;
   -moz-transition-property: background-color;
   -o-transition-property: background-color;
