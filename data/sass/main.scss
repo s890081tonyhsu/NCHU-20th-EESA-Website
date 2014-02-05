@@ -1,0 +1,7 @@
+@import "compass/css3/transition";
+body.main{
+	background-color:darkblue;
+	@include transition-property(background-color);
+	@include transition-duration(0.5s);
+	color:white;
+}

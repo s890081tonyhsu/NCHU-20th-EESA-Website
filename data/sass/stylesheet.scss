@@ -1,0 +1,10 @@
+@import "compass/css3/transition";
+@import url("main.css");
+@import url("preface.css");
+@import url("introduction.css");
+
+body{
+	background-color:white;
+	@include transition-property(background-color);
+	@include transition-duration(0.5s);
+}
