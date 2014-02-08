@@ -1,6 +1,6 @@
 @import "compass/css3/transition";
-body.main{
-	background-color:pink;
+body.diversity{
+	background-color:lighten(invert(orange),30%);
 	@include transition-property(background-color);
 	@include transition-duration(0.5s);
 }

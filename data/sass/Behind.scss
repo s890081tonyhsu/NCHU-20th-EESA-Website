@@ -1,6 +1,6 @@
 @import "compass/css3/transition";
-body.introduction{
-	background-color:lighten(red,20%);
+body.behind{
+	background-color:lighten(invert(purple),0%);
 	@include transition-property(background-color);
 	@include transition-duration(0.5s);
 }

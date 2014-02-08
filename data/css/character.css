@@ -1,6 +1,6 @@
-/* line 2, ../sass/introduction.scss */
-body.introduction {
-  background-color: #ff6666;
+/* line 2, ../sass/character.scss */
+body.character {
+  background-color: #ffb2ff;
   -webkit-transition-property: background-color;
   -moz-transition-property: background-color;
   -o-transition-property: background-color;

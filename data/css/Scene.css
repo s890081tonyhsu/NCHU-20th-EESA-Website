@@ -1,6 +1,6 @@
-/* line 2, ../sass/main.scss */
-body.main {
-  background-color: pink;
+/* line 2, ../sass/Scene.scss */
+body.scene {
+  background-color: #ffff99;
   -webkit-transition-property: background-color;
   -moz-transition-property: background-color;
   -o-transition-property: background-color;
