@@ -1,5 +1,6 @@
 function SetPage(){
 	$("#menuBar .menu a").click(function(){
+		 $("#cover").fadeOut(); 
 		$("#menuBar .menu a").each(function(){
 			$(this).removeClass("active");
 		});
@@ -19,4 +20,5 @@ function InitPage(){
 	});
 	$("body").removeClass();
 	$("#Inner").text("");
+	$("#cover").fadeIn();
 }

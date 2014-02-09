@@ -1,12 +1,9 @@
-@import url("main.css");
-@import url("preface.css");
-@import url("introduction.css");
 @import url("Synopsis.css");
 @import url("Diversity.css");
 @import url("character.css");
 @import url("Scene.css");
 @import url("Behind.css");
-/* line 10, ../sass/stylesheet.scss */
+/* line 7, ../sass/stylesheet.scss */
 body {
   background-color: white;
   -webkit-transition-property: background-color;
@@ -17,4 +14,9 @@ body {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
+}
+/* line 11, ../sass/stylesheet.scss */
+body #Inner, body #cover {
+  width: 100%;
+  text-align: center;
 }
