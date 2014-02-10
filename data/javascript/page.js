@@ -1,6 +1,6 @@
 function SetPage(){
 	$("#menuBar .menu a").click(function(){
-		 $("#cover").fadeOut(); 
+		$("#cover").fadeOut(); 
 		$("#menuBar .menu a").each(function(){
 			$(this).removeClass("active");
 		});
@@ -9,7 +9,7 @@ function SetPage(){
 		var Detail = $(this).attr("page");
 		$("body").addClass(Detail);
 		$("#Inner").text("");
-		$("#Inner").load("views/"+Detail+".html");
+		$("#Inner").load("views/"+Detail+".html").queue(function(){$(this).slideDown().dequeue();});;
 	});
 }
 $(document).ready(SetPage);
@@ -19,6 +19,6 @@ function InitPage(){
 		$(this).removeClass("active");
 	});
 	$("body").removeClass();
-	$("#Inner").text("");
+	$("#Inner").slideUp("fast").queue(function(){$(this).text("").dequeue();});
 	$("#cover").fadeIn();
 }

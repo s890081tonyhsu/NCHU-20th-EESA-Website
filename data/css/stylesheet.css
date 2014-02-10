@@ -16,7 +16,7 @@ body {
   transition-duration: 0.5s;
 }
 /* line 11, ../sass/stylesheet.scss */
-body #Inner, body #cover {
+body #cover {
   width: 100%;
   text-align: center;
 }

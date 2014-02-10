@@ -8,7 +8,7 @@ body{
 	background-color:white;
 	@include transition-property(background-color);
 	@include transition-duration(0.5s);
-	#Inner, #cover{
+	#cover{
 		width:100%;
 		text-align:center;
 	}
